@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f4f7fe;
+}
+
+button, input, textarea {
+  font-family: 'Outfit', sans-serif;
+}

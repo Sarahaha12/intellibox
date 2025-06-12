@@ -1,0 +1,48 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9fbff;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-grow: 1;
+}
+
+/* EmailProcessing Layout (horizontal split) */
+.email-processing {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.upload-section,
+.output-section {
+  width: 48%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.drop-zone {
+  height: 140px;
+  border: 2px dashed #b0b0b0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 16px;
+}
