@@ -1,14 +1,32 @@
 .header {
   display: flex;
-  justify-content: flex-end;
-  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 40px;
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.header button {
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #233878;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.logo:hover {
+  color: #5a6fd7;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-buttons button {
   background-color: #233878;
   color: white;
   border: none;
@@ -21,7 +39,7 @@
   font-family: 'Outfit', sans-serif;
 }
 
-.header button:hover {
+.header-buttons button:hover {
   background-color: #768de8;
   transform: translateY(-2px);
 }
